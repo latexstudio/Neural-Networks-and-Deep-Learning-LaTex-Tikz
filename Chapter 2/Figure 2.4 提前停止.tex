@@ -1,0 +1,74 @@
+%!TEX program = pdflatex
+\documentclass{standalone}
+\usepackage[UTF8]{ctex}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{mathdots}
+\usepackage{yhmath}
+\usepackage{cancel}
+\usepackage{color}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt    
+
+\begin{document}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,635.1999969482422); %set diagram left start at 0, and has height of 635.1999969482422
+
+%Shape: Axis 2D [id:dp9223749179462533] 
+\draw [line width=1.5]  (120,483.44) -- (430,483.44)(151,280.38) -- (151,506) (423,478.44) -- (430,483.44) -- (423,488.44) (146,287.38) -- (151,280.38) -- (156,287.38)  ;
+%Shape: Rectangle [id:dp08820006914768364] 
+\draw   (360,286) -- (456,286) -- (456,326) -- (360,326) -- cycle ;
+%Straight Lines [id:da5290046720236545] 
+\draw [color={rgb, 255:red, 122; green, 196; blue, 41 }  ,draw opacity=1 ][line width=1.5]    (366,315.38) -- (398,315) ;
+
+
+%Straight Lines [id:da7935956397462929] 
+\draw [color={rgb, 255:red, 225; green, 36; blue, 59 }  ,draw opacity=1 ][line width=1.5]  [dash pattern={on 5.63pt off 4.5pt}]  (366,295.38) -- (398,295) ;
+
+
+%Curve Lines [id:da05916506374825081] 
+\draw [color={rgb, 255:red, 34; green, 211; blue, 45 }  ,draw opacity=1 ][line width=1.5]    (172,318) .. controls (195.12,371.77) and (311.12,468.77) .. (388,366) ;
+
+
+%Curve Lines [id:da7985571216828504] 
+\draw [color={rgb, 255:red, 223; green, 26; blue, 26 }  ,draw opacity=1 ][line width=1.5]  [dash pattern={on 5.63pt off 4.5pt}]  (158,332) .. controls (189.12,366.77) and (220.12,458.77) .. (410,434) ;
+
+
+%Straight Lines [id:da9639032357727497] 
+\draw [line width=1.5]  [dash pattern={on 5.63pt off 4.5pt}]  (296,368) -- (297,460) ;
+
+
+%Straight Lines [id:da3524435807124833] 
+\draw    (298,428) -- (390,426.04) ;
+\draw [shift={(392,426)}, rotate = 538.78] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]  [draw opacity=0] (8.93,-4.29) -- (0,0) -- (8.93,4.29) -- cycle    ;
+
+
+% Text Node
+\draw (180.5,295) node  [align=left] {错误率};
+% Text Node
+\draw (392,471) node  [align=left] {迭代次数};
+% Text Node
+\draw (424.5,315) node  [align=left] {验证集};
+% Text Node
+\draw (424.5,295) node  [align=left] {测试集};
+% Text Node
+\draw (296,355) node  [align=left] {提前停止};
+% Text Node
+\draw (364.5,415) node  [align=left] {过拟合};
+
+
+\end{tikzpicture}
+
+\end{document}
